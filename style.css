@@ -1,0 +1,59 @@
+/* Body styles */
+body {
+  font-family: Verdana, serif;
+  background-color: #ffcccc; /* Light red */
+
+  margin: 40px;
+  padding: 20px;
+  color: #333;
+}
+
+/* Main heading styles */
+h1 {
+  font-family: Georgia, serif; /* Original serif font */
+  font-size: 2em;
+  color: #1a1a1a;
+  text-align: center; /* NEW: Centered heading */
+}
+
+/* Secondary heading styles */
+h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", serif; /* NEW serif font */
+  font-size: 1.5em;
+  color: #444;
+}
+
+/* Paragraph styles */
+p {
+  font-family: "Times New Roman", Times, serif; /* NEW serif font */
+  line-height: 1.6;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0056b3;
+  font-weight: bold;
+}
+
+/* NEW: link hover effect */
+nav a:hover {
+  color: #ff6600;
+}
+
+/* Image styles */
+img {
+  margin: 10px;
+  border: 2px solid #ccc;
+}
